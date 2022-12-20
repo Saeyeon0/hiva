@@ -4,9 +4,11 @@
 
 https://user-images.githubusercontent.com/100344816/208708721-c6ca29ba-1987-4622-973b-94dd77cda860.mov
 
-<img width="1440" alt="Снимок экрана 2022-12-20 в 22 17 09" src="https://user-images.githubusercontent.com/100344816/208714417-59520ffa-1892-422d-a4b1-124b75b7beb5.png">
+***Before you use HIVA chat, firstly, you have to choose the user type (for example, I chose "student" in the video) to create an account!***
 
-***Before you use HIVA chat, press register above in nav bar! Firstly, you have to choose the user type (for example, I chose "student" in the video) to create an account!***
+https://user-images.githubusercontent.com/100344816/208743474-641eaaa4-7954-44fe-97c5-5e7674e0c641.mov
+
+***Here is an example of creating an account.***
 
 https://user-images.githubusercontent.com/100344816/208701768-cd13af12-2143-410a-bcc7-e64ee1df401e.mov
 
