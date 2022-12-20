@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" th:href="@{/css/style.css}" type="text/css" />
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="favicon.ico" th:href="@{/img/logo.png}" type="image/x-icon">
+
+  <title>HIVA Configuration Website</title>
+</head>
+
+<body>
+<header>
+  <h1>Please choose the user type to join!</h1>
+</header>
+
+<div class="context">
+  <div class="container">
+    <div class="card" style="--color: PaleTurquoise">
+      <div class="content">
+        <div class="icon">
+          <ion-icon name="receipt-outline"></ion-icon>
+        </div>
+        <div class="text">
+          <h3>Professor</h3>
+          <p>Choose one option</p>
+          <a
+                  href="/registration"
+          >Join</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="card" style="--color: LightSalmon">
+      <div class="content">
+        <div class="icon">
+          <ion-icon name="accessibility-outline"></ion-icon>
+        </div>
+        <div class="text">
+          <h3>Student</h3>
+          <p>Choose one option</p>
+          <a
+                  href="/registration"
+          >Join</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="card" style="--color: Thistle">
+      <div class="content">
+        <div class="icon">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </div>
+        <div class="text">
+          <h3>Admin</h3>
+          <p>Choose one option</p>
+          <button id="myBtn">Join</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Are you sure you are an admin?</p>
+              <a
+                      href="/registration"
+              >Yes</a
+              >
+              <a href="/">No</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="area">
+  <ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+
+<script src="./scriptt.js" th:src="@{/js/scriptt.js}"></script>
+<script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+</body>
+</html>
+

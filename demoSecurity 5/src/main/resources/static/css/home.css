@@ -1,0 +1,329 @@
+body {
+    background-color: #222;
+    font-family: cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+}
+
+.area {
+    background: #222;
+    width: 100%;
+    height: 100vh;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(210, 210, 210);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-block-start: 7px;
+}
+
+.container h1 {
+    position: relative;
+    margin-left: 10px;
+    margin-block-start: 5px;
+    float: left;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+header {
+    background: rgb(173, 232, 237);
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: rgb(25, 58, 102);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: rgb(240, 251, 255);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid skyblue;
+    width: 40%;
+    font-size: 18px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    background: rgb(165, 199, 214);
+    color: #444;
+    font-family: cursive;
+    font-size: 13px;
+    font-weight: 300;
+    margin-block-start: 10px;
+    padding: 6px 17px;
+    text-transform: uppercase;
+}
+
+.card {
+    background-color: rgb(234, 245, 248);
+    color: #222;
+    margin-block-start: 5rem;
+    margin-left: 5rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+}
+
+h5 {
+    color: rgb(57, 84, 110);
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+}
+
+p {
+    color: rgb(85, 116, 139);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.btn {
+    background-color: rgb(126, 182, 206);
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.modals {
+    display: none;
+    position: fixed;
+    margin-block-start: 40px;
+    margin-left: 200px;
+    align-items: center;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.modals-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.closed {
+    color: #aaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.closed:hover,
+.closed:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section {
+    color: rgb(31, 38, 77);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.add {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
