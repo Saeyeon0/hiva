@@ -53,4 +53,9 @@ public class MainController {
     public ModelAndView home(){
         return new ModelAndView("home");
     }
+
+    @GetMapping("/login")
+    public ModelAndView registration(){
+        return new ModelAndView("home");
+    }
 }
