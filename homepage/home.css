@@ -151,7 +151,7 @@ body {
 }
 
 header {
-  background: rgb(202, 238, 202);
+  background: rgb(173, 232, 237);
 }
 
 header::after {
@@ -192,7 +192,7 @@ nav a::before {
   content: "";
   display: block;
   height: 5px;
-  background-color: rgb(63, 77, 40);
+  background-color: rgb(25, 58, 102);
 
   position: absolute;
   top: 0;
@@ -219,7 +219,7 @@ nav a:hover::before {
 }
 
 .modal-content {
-  background-color: honeydew;
+  background-color: rgb(240, 251, 255);
   margin: 10% auto;
   padding: 20px;
   border: 1px solid skyblue;
@@ -244,7 +244,7 @@ nav a:hover::before {
 button {
   position: relative;
   display: inline-block;
-  background: rgb(150, 198, 150);
+  background: rgb(165, 199, 214);
   color: #444;
   font-family: cursive;
   font-size: 13px;
@@ -255,7 +255,7 @@ button {
 }
 
 .card {
-  background-color: beige;
+  background-color: rgb(234, 245, 248);
   color: #222;
   margin-block-start: 5rem;
   margin-left: 5rem;
@@ -267,18 +267,18 @@ button {
 }
 
 h5 {
-  color: darkolivegreen;
+  color: rgb(57, 84, 110);
   font-weight: bold;
   font-family: "Gill Sans", sans-serif;
 }
 
 p {
-  color: darkolivegreen;
+  color: rgb(85, 116, 139);
   font-family: "Gill Sans", sans-serif;
 }
 
 .btn {
-  background-color: darkseagreen;
+  background-color: rgb(126, 182, 206);
   color: white;
   font-family: "Gill Sans", sans-serif;
 }
@@ -318,3 +318,12 @@ p {
   cursor: pointer;
 }
 
+.section {
+  color: rgb(31, 38, 77);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.add {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
