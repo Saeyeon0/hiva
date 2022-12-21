@@ -10,6 +10,10 @@ https://user-images.githubusercontent.com/100344816/208743474-641eaaa4-7954-44fe
 
 ***Here is an example of creating an account.***
 
+![photo_2022-12-22 00 43 10](https://user-images.githubusercontent.com/100344816/208980232-d5656d6e-c33b-4246-a8ad-9bb3df927caf.jpeg)
+
+***And this is how our login information examples are stored in database!***
+
 https://user-images.githubusercontent.com/100344816/208701768-cd13af12-2143-410a-bcc7-e64ee1df401e.mov
 
 ***Please read the description in card on homepage (shown in the video) to use our website more easily and efficiently!***
